@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Hui Xia",
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://huixia.vercel.app"),
 };
 
 export default function RootLayout({ children }) {
