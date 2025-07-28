@@ -9,6 +9,7 @@ import TicTacToeImage from "../assets/projects/tictactoe.png";
 import NutriTrackImage from "../assets/projects/nutritrack.png";
 import OceanImage from "../assets/projects/ocean.png";
 import RunMonashImage from "../assets/projects/runmonash.png";
+import LangImage from "../assets/projects/lang.png";
 
 
 import { useState } from "react";
@@ -61,7 +62,7 @@ export default function Home() {
         "A cruise booking platform modeled with relational database principles, featuring entity design, normalization, and schema generation using Oracle tools.",
       image: OceanImage,
       imageAlt: "Ocean Odyssey",
-      technologies: ["Oracle SQL", "Oracle Data Modeler", "Lucidchart", "Normalization"],
+      technologies: ["Oracle SQL", "Oracle Data Modeler", "Lucidchart"],
       github: "https://github.com/HuiXia0210/OceanOdyssey.git",
     },
     {
@@ -70,10 +71,18 @@ export default function Home() {
         "A database project for a running carnival platform that uses SQL and MongoDB to manage event entries, teams, competitors, and fundraising analytics. ",
       image: RunMonashImage,
       imageAlt: "Run Monash",
-      technologies: ["Oracle SQL", "MongoDB", "Oracle SQL Developer"],
+      technologies: ["MongoDB", "Oracle SQL Developer"],
       github: "https://github.com/HuiXia0210/RunMonash.git",
     },
-    
+    {
+      title: "Lang",
+      description:
+        "An interpreted programming language with variable scope, error catching, loops and statements. Users can run programs from a file or an interactive repl. ",
+      image: LangImage,
+      imageAlt: "Lang ",
+      technologies: ["Python"],
+      github: "https://github.com/HuiXia0210/lang.git",
+    }
   ];
 
   const [searchTerm, setSearchTerm] = useState("");
