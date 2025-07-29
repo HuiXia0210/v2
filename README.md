@@ -5,7 +5,7 @@
     Personal Website -
 </h1>
 <p align="center">
-    The second iteration of my personal website. Built with <a href="https://nextjs.org" target="_blank">Next.js</a> and <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>. Check it out at <a href="https://huixia.vercel.app" target="_blank">huixia.vercel.app</a>.
+    👋 Hi there! This is the digital home where I share my projects, thoughts, and experiments. Built with love, curiosity, and too much matcha. Built with <a href="https://nextjs.org" target="_blank">Next.js</a> and <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>. Check it out at <a href="https://huixia.vercel.app" target="_blank">huixia.vercel.app</a>.
 </p>
 
 ## Getting Started
