@@ -23,7 +23,7 @@ export default function Home() {
         "Locomotion Commotion — like Dijkstra meets real-time train tracking. Intercept a moving passenger on a high-speed train loop using the cheapest driving route. Real-time path sync, no waiting allowed.",
       image: VibeDrawImage,
       imageAlt: "Vibe Draw",
-      technologies: ["Python","Dijsktra"],
+      technologies: ["Python"],
       github: "https://github.com/HuiXia0210/Locomotion.git",
     },
     {
@@ -32,7 +32,7 @@ export default function Home() {
         "A Crowded Campus — like a matchmaker for classrooms. Assign students to limited classes under space and time constraints while maximizing satisfaction. Just optimal allocation.",
       image: CrowdedCampusImage,
       imageAlt: "Crowded Campus",
-      technologies: ["Python", "Network Flow", "Lower bound", "Eliminate demand","Trie"],
+      technologies: ["Python", "Network Flow","Trie"],
       github: "https://github.com/HuiXia0210/CrowdedCampus.git",
     },
     {
