@@ -3,7 +3,7 @@
 import Link from "../components/Link";
 import ProjectList from "../components/ProjectList";
 
-import VibeDrawImage from "../assets/projects/vibedraw.gif";
+import TrainImage from "../assets/projects/train.png";
 import CrowdedCampusImage from "../assets/projects/crowdedcampus.png";
 import TicTacToeImage from "../assets/projects/tictactoe.png";
 import NutriTrackImage from "../assets/projects/nutritrack.png";
@@ -20,9 +20,9 @@ export default function Home() {
     {
       title: "Locomotion",
       description:
-        "Locomotion Commotion — like Dijkstra meets real-time train tracking. Intercept a moving passenger on a high-speed train loop using the cheapest driving route. Real-time path sync, no waiting allowed.",
-      image: VibeDrawImage,
-      imageAlt: "Vibe Draw",
+        "Developed an efficient pathfinding algorithm to intercept a moving passenger on a circular high-speed train loop by minimizing travel cost and time across dynamic road and train networks. The solution simulates real-time interception planning and runs in O(|R| log |L|) time using graph algorithms.",
+      image: TrainImage,
+      imageAlt: "Train Interception",
       technologies: ["Python"],
       github: "https://github.com/HuiXia0210/Locomotion.git",
     },
