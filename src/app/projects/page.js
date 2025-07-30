@@ -10,6 +10,7 @@ import NutriTrackImage from "../assets/projects/nutritrack.png";
 import OceanImage from "../assets/projects/ocean.png";
 import RunMonashImage from "../assets/projects/runmonash.png";
 import LangImage from "../assets/projects/lang.png";
+import BritishAirwaysImage from "../assets/projects/britishairways.png";
 
 
 import { useState } from "react";
@@ -34,6 +35,15 @@ export default function Home() {
       imageAlt: "Crowded Campus",
       technologies: ["Python", "Network Flow"],
       github: "https://github.com/HuiXia0210/CrowdedCampus.git",
+    },
+    {
+      title: "British Airways",
+      description:
+        "This project analyzes customer reviews of British Airways to uncover key patterns in satisfaction, service quality, and travel experience. The interactive dashboard highlights factors that influence passenger ratings across various aspects like comfort, value, and crew service.",
+      image: BritishAirwaysImage,
+      imageAlt: "British Airways Review",
+      technologies: ["Tableau", "Data Visualization"],
+      github: "https://github.com/HuiXia0210/British-Airways-Review.git",
     },
     {
       title: "Lang",
@@ -83,6 +93,7 @@ export default function Home() {
       technologies: ["MongoDB", "Oracle SQL Developer"],
       github: "https://github.com/HuiXia0210/RunMonash.git",
     },
+    
   ];
 
   const [searchTerm, setSearchTerm] = useState("");
