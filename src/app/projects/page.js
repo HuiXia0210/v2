@@ -18,22 +18,13 @@ import { Search } from "lucide-react";
 export default function Home() {
   const projects = [
     {
-      title: "Locomotion",
+      title: "Lang",
       description:
-        "Developed an efficient pathfinding algorithm to intercept a moving passenger on a circular high-speed train loop by minimizing travel cost and time across dynamic road and train networks. The solution simulates real-time interception planning and runs in O(|R| log |L|) time using graph algorithms.",
-      image: TrainImage,
-      imageAlt: "Train Interception",
+        "An interpreted programming language with variable scope, error catching, loops and statements. Users can run programs from a file or an interactive repl. ",
+      image: LangImage,
+      imageAlt: "Lang ",
       technologies: ["Python"],
-      github: "https://github.com/HuiXia0210/Locomotion.git",
-    },
-    {
-      title: "A Crowded Campus",
-      description:
-        "A Crowded Campus — like a matchmaker for classrooms. Assign students to limited classes under space and time constraints while maximizing satisfaction. Just optimal allocation.",
-      image: CrowdedCampusImage,
-      imageAlt: "Crowded Campus",
-      technologies: ["Python", "Network Flow","Trie"],
-      github: "https://github.com/HuiXia0210/CrowdedCampus.git",
+      github: "https://github.com/HuiXia0210/lang.git",
     },
     {
       title: "Tic-Tac-Toe AI Solver",
@@ -45,6 +36,24 @@ export default function Home() {
       technologies: ["JavaScript", "HTML", "CSS"],
       github: "https://github.com/HuiXia0210/tictactoeee.git",
       demo: "https://huixia0210.github.io/tictactoeee/",
+    },
+    {
+      title: "Locomotion",
+      description:
+        "Developed an efficient pathfinding algorithm to intercept a moving passenger on a circular high-speed train loop by minimizing travel cost and time across dynamic road and train networks. The solution simulates real-time interception planning and runs in O(|R| log |L|) time using graph algorithms.",
+      image: TrainImage,
+      imageAlt: "Train Interception",
+      technologies: ["Python"],
+      github: "https://github.com/HuiXia0210/Locomotion.git",
+    },
+    {
+      title: "A Crowded Campus",
+      description:
+        "Designed an efficient algorithm to allocate students to classes under classroom and scheduling constraints while maximizing student satisfaction. The solution verifies feasibility and optimizes space usage in high-demand classrooms and time slots.",
+      image: CrowdedCampusImage,
+      imageAlt: "Crowded Campus",
+      technologies: ["Python", "Network Flow"],
+      github: "https://github.com/HuiXia0210/CrowdedCampus.git",
     },
     {
       title: "NutriTrack",
@@ -74,15 +83,6 @@ export default function Home() {
       technologies: ["MongoDB", "Oracle SQL Developer"],
       github: "https://github.com/HuiXia0210/RunMonash.git",
     },
-    {
-      title: "Lang",
-      description:
-        "An interpreted programming language with variable scope, error catching, loops and statements. Users can run programs from a file or an interactive repl. ",
-      image: LangImage,
-      imageAlt: "Lang ",
-      technologies: ["Python"],
-      github: "https://github.com/HuiXia0210/lang.git",
-    }
   ];
 
   const [searchTerm, setSearchTerm] = useState("");
