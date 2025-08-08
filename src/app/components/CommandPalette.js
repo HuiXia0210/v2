@@ -8,6 +8,7 @@ import { Search, FileText, Home, FolderGit2, PenLine, Github, Linkedin, External
 import useMobileDevice from "../hooks/useMobileDevice";
 import { useTheme } from "./ThemeProvider";
 
+
 const projects = [
   {
     title: "Make It Jake's",

@@ -1,4 +1,5 @@
 import { Linkedin, Github, FileText, Mail, CodeXml } from "lucide-react";
+import { XiaohongshuIcon } from "./icons/XiaohongshuIcon";
 
 
 export default function Footer({ className }) {
@@ -7,6 +8,11 @@ export default function Footer({ className }) {
       name: "instagram",
       href: "https://www.instagram.com/ooihuixia/",
       icon: null,
+    },
+    {
+      name: "xiaohongshu",
+      href: "https://www.xiaohongshu.com/user/profile/669d17c20000000024020af3",
+      icon: XiaohongshuIcon,
     },
     {
       name: "linkedin",
