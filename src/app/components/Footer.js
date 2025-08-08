@@ -1,5 +1,5 @@
 import { Linkedin, Github, FileText, Mail, CodeXml } from "lucide-react";
-import { XiaohongshuIcon } from "./icons/XiaohongshuIcon";
+import { XiaohongshuIcon } from "./icon/XiaohongshuIcon";
 
 
 export default function Footer({ className }) {
@@ -16,7 +16,7 @@ export default function Footer({ className }) {
     },
     {
       name: "linkedin",
-      href: "https://www.linkedin.com/in/sze-hui-ooi-2a532a1aa/",
+      href: "https://www.linkedin.com/in/huixia-ooi/",
       icon: Linkedin,
     },
     {
