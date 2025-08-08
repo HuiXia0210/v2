@@ -50,14 +50,13 @@ export default function About() {
         <GalleryHorizontalEnd className="size-5 inline align-top ml-1 transition-transform group-hover:rotate-3" />
       </NextLink>
 
-      {/*<div className="flex items-center justify-center gap-2 text-stone-600 dark:text-stone-400 mt-4">
+      <div className="flex items-center justify-center gap-2 text-stone-600 dark:text-stone-400 mt-4">
         <span>or, </span>
         <span>→</span>
         <Link href="/resume.pdf" className="font-medium">
           view my resume
         </Link>
       </div>
-      */}
 
       <div className="w-48 h-48 relative rounded-full border-2 border-stone-200 dark:border-stone-700 shadow-lg overflow-hidden bg-stone-50 dark:bg-stone-800">
         <Image
