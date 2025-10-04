@@ -44,8 +44,9 @@ export default function Home() {
       imageAlt: "British Airways Review",
       technologies: ["Tableau", "Data Visualization"],
       github: "https://github.com/HuiXia0210/British-Airways-Review.git",
-    },
+    },/*
     {
+      
       title: "Lang",
       description:
         "An interpreted programming language with variable scope, error catching, loops and statements. Users can run programs from a file or an interactive repl. ",
@@ -64,7 +65,7 @@ export default function Home() {
       technologies: ["JavaScript", "HTML", "CSS"],
       github: "https://github.com/HuiXia0210/tictactoeee.git",
       demo: "https://huixia0210.github.io/tictactoeee/",
-    },
+    },*/
     {
       title: "NutriTrack",
       description:
