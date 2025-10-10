@@ -45,6 +45,25 @@ export default function About() {
             <li>interactive design</li>
           </ul>
         </li>
+
+      <li className="group flex flex-col gap-3 pl-4 relative hover:translate-x-1 transition-transform duration-200">
+  <div className="absolute left-0 top-[10px] w-[6px] h-[6px] bg-stone-800 dark:bg-stone-200 rotate-45 transform transition-all duration-300 group-hover:rotate-90 group-hover:scale-110" />
+
+  <span className="text-stone-600 dark:text-stone-400 italic font-medium">
+    skills:
+  </span>
+
+  <ul className="grid gap-1 pl-4 list-disc text-stone-600 dark:text-stone-400">
+    <li>Python, Java, SQL, JavaScript, HTML, CSS</li>
+    <li>Tableau, Power BI, Vega-Lite (data visualization)</li>
+    <li>Git, Bash, Linux</li>
+  </ul>
+
+  <p className="pl-4 text-stone-600 dark:text-stone-400">
+    I’m currently learning more about automation, cloud systems, and how AI connects with data infrastructure.
+  </p>
+</li>
+
       </ul>
 
       <NextLink
