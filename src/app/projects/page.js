@@ -11,6 +11,9 @@ import OceanImage from "../assets/projects/ocean.png";
 import RunMonashImage from "../assets/projects/runmonash.png";
 import LangImage from "../assets/projects/lang.png";
 import BritishAirwaysImage from "../assets/projects/britishairways.png";
+import LanaImage from "../assets/projects/lana_image.png"
+import BedImage from "../assets/projects/bbb.png"
+import ArabImage from "../assets/projects/arab.webp"
 
 
 import { useState } from "react";
@@ -19,22 +22,13 @@ import { Search } from "lucide-react";
 export default function Home() {
   const projects = [
     {
-      title: "Locomotion",
+      title: "Lana Del Rey Dashboard",
       description:
-        "Developed an efficient pathfinding algorithm to intercept a moving passenger on a circular high-speed train loop by minimizing travel cost and time across dynamic road and train networks. The solution simulates real-time interception planning and runs in O(|R| log |L|) time using graph algorithms.",
-      image: TrainImage,
-      imageAlt: "Train Interception",
-      technologies: ["Python"],
-      github: "https://github.com/HuiXia0210/Locomotion.git",
-    },
-    {
-      title: "A Crowded Campus",
-      description:
-        "Designed an efficient algorithm to allocate students to classes under classroom and scheduling constraints while maximizing student satisfaction. The solution verifies feasibility and optimizes space usage in high-demand classrooms and time slots.",
-      image: CrowdedCampusImage,
-      imageAlt: "Crowded Campus",
-      technologies: ["Python", "Network Flow"],
-      github: "https://github.com/HuiXia0210/CrowdedCampus.git",
+        "An interactive music analytics dashboard exploring Lana Del Rey’s discography. It visualizes trends in audio features, popularity, and lyrical sentiment across albums using Python and Tableau. The project highlights data wrangling, sentiment analysis, and storytelling through visuals that reveal how her music style evolved over time.",
+      image: LanaImage,
+      imageAlt: "Lana Del Rey",
+      technologies: ["Tableau, Python (pandas, seaborn, TextBlob)"],
+      github: "https://github.com/HuiXia0210/music_analysis.git",
     },
     {
       title: "British Airways",
@@ -44,37 +38,33 @@ export default function Home() {
       imageAlt: "British Airways Review",
       technologies: ["Tableau", "Data Visualization"],
       github: "https://github.com/HuiXia0210/British-Airways-Review.git",
-    },/*
-    {
-      
-      title: "Lang",
-      description:
-        "An interpreted programming language with variable scope, error catching, loops and statements. Users can run programs from a file or an interactive repl. ",
-      image: LangImage,
-      imageAlt: "Lang ",
-      technologies: ["Python"],
-      github: "https://github.com/HuiXia0210/lang.git",
     },
     {
-      title: "Tic-Tac-Toe AI Solver",
-      href: "https://huixia0210.github.io/tictactoeee/",
+      title: "Bed Bath & Beyond",
       description:
-        "a web app that uses the minimax algorithm and alpha-beta pruning to let you play against an unbeatable AI.",
-      image: TicTacToeImage,
-      imageAlt: "Tic-Tac-Toe AI Solver",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      github: "https://github.com/HuiXia0210/tictactoeee.git",
-      demo: "https://huixia0210.github.io/tictactoeee/",
-    },*/
+        "An interactive R Shiny dashboard analyzing sales, inventory, and customer data to uncover factors behind the retailer’s performance decline. It highlights data wrangling, KPI visualization, and business insight generation for strategic decision-making.",
+      image: BedImage,
+      imageAlt: "Bed",
+      technologies: ["R Shiny, R"],
+      github: "https://github.com/HuiXia0210/bedbath_andbeyond.git",
+    },
     {
-      title: "NutriTrack",
+      title: "Arab Restaurant Reviews Analysis",
       description:
-        "a nutrition app that tracks humans' nutrition intake, developed API to generate real time AI interaction",
-      image: NutriTrackImage,
-      imageAlt: "NutriTrack App Tracker",
-      technologies: ["Kotlin", "Android Studio"],
-      github: "https://github.com/HuiXia0210/NutriTrack.git",
-      demo: "https://huixia0210.github.io/NutriTrack/nutritrack-demo.html",
+        "A text analytics project that extracts and analyzes Google Maps reviews from Los Angeles–based Arab restaurants to uncover customer sentiment and service insights. It combines data scraping (Apify), NLP, and visualization in Google Colab to identify trends in food quality, price, and delivery experience.",
+      image: ArabImage,
+      imageAlt: "Arab",
+      technologies: ["Google Colab, Apify, Python"],
+      github: "https://github.com/HuiXia0210/restaurant_review_analysis.git",
+    },
+    {
+      title: "Run Monash",
+      description:
+        "A database project for a running carnival platform that uses SQL and MongoDB to manage event entries, teams, competitors, and fundraising analytics. ",
+      image: RunMonashImage,
+      imageAlt: "Run Monash",
+      technologies: ["MongoDB", "Oracle SQL Developer"],
+      github: "https://github.com/HuiXia0210/RunMonash.git",
     },
     {
       title: "Ocean Odyssey",
@@ -86,13 +76,46 @@ export default function Home() {
       github: "https://github.com/HuiXia0210/OceanOdyssey.git",
     },
     {
-      title: "Run Monash",
+      title: "NutriTrack",
       description:
-        "A database project for a running carnival platform that uses SQL and MongoDB to manage event entries, teams, competitors, and fundraising analytics. ",
-      image: RunMonashImage,
-      imageAlt: "Run Monash",
-      technologies: ["MongoDB", "Oracle SQL Developer"],
-      github: "https://github.com/HuiXia0210/RunMonash.git",
+        "a nutrition app that tracks humans' nutrition intake, developed API to generate real time AI interaction",
+      image: NutriTrackImage,
+      imageAlt: "NutriTrack App Tracker",
+      technologies: ["Kotlin", "Android Studio"],
+      github: "https://github.com/HuiXia0210/NutriTrack.git",
+      demo: "https://huixia0210.github.io/NutriTrack/nutritrack-demo.html",
+    },
+
+    {
+      title: "Locomotion",
+      description:
+        "Developed an efficient pathfinding algorithm to intercept a moving passenger on a circular high-speed train loop by minimizing travel cost and time across dynamic road and train networks. The solution simulates real-time interception planning and runs in O(|R| log |L|) time using graph algorithms.",
+      image: TrainImage,
+      imageAlt: "Train Interception",
+      technologies: ["Python"],
+      github: "https://github.com/HuiXia0210/Locomotion.git",
+    },
+    /*
+    {
+      
+      title: "Lang",
+      description:
+        "An interpreted programming language with variable scope, error catching, loops and statements. Users can run programs from a file or an interactive repl. ",
+      image: LangImage,
+      imageAlt: "Lang ",
+      technologies: ["Python"],
+      github: "https://github.com/HuiXia0210/lang.git",
+    },*/
+    {
+      title: "Tic-Tac-Toe AI Solver",
+      href: "https://huixia0210.github.io/tictactoeee/",
+      description:
+        "A web app that uses the minimax algorithm and alpha-beta pruning to let you play against an unbeatable AI.Showcases game logic, search algorithms, and decision-making optimization.",
+      image: TicTacToeImage,
+      imageAlt: "Tic-Tac-Toe AI Solver",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      github: "https://github.com/HuiXia0210/tictactoeee.git",
+      demo: "https://huixia0210.github.io/tictactoeee/",
     },
     
   ];

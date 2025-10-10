@@ -13,31 +13,36 @@ export default function About() {
         <li className="group flex items-start gap-4 pl-4 relative hover:translate-x-1 transition-transform duration-200">
           <div className="absolute left-0 top-[10px] w-[6px] h-[6px] bg-stone-800 dark:bg-stone-200 rotate-45 transform transition-all duration-300 group-hover:rotate-90 group-hover:scale-110" />
           <span className="text-stone-600 dark:text-stone-400">
-             Tech Scholar 2023 {" "}
-            <Link href="https://www.maxis.com.my/en/about-maxis/career/maxis-scholarship-programme/" className="font-medium">
-              Maxis
-            </Link>
+            <Link
+          href="https://www.maxis.com.my/en/about-maxis/career/maxis-scholarship-programme/"
+          className="font-medium hover:text-stone-800 dark:hover:text-stone-200 transition-colors duration-200"
+        >
+          Maxis
+          </Link>{" "}
+          Tech Scholar 2023
           </span>
-        </li>
+          </li>
+      
 
         <li className="group flex items-start gap-4 pl-4 relative hover:translate-x-1 transition-transform duration-200">
           <div className="absolute left-0 top-[10px] w-[6px] h-[6px] bg-stone-800 dark:bg-stone-200 rotate-45 transform transition-all duration-300 group-hover:rotate-90 group-hover:scale-110" />
           <span className="text-stone-600 dark:text-stone-400">
             cs student @{" "}
             <Link href="https://www.monash.edu.my" className="font-medium">
-              Monash University
+              Monash University Malaysia
             </Link>
+            , majoring in Data Science
           </span>
         </li>
 
         <li className="group flex flex-col gap-3 pl-4 relative hover:translate-x-1 transition-transform duration-200">
           <div className="absolute left-0 top-[10px] w-[6px] h-[6px] bg-stone-800 dark:bg-stone-200 rotate-45 transform transition-all duration-300 group-hover:rotate-90 group-hover:scale-110" />
-          <span className="text-stone-600 dark:text-stone-400 italic font-medium">hobbies🩵:</span>
+          <span className="text-stone-600 dark:text-stone-400 italic font-medium">interests🩵:</span>
           <ul className="grid gap-1 pl-4 list-disc text-stone-600 dark:text-stone-400">
-            <li>coding 👩🏻‍💻</li>
-            <li>watching sunset</li>
-            <li>cooking with my mum</li>
-            <li>listening to music 🎵 </li>
+            <li>data science👩🏻‍💻</li>
+            <li>data analytics & visualization</li>
+            <li>machine learning & AI</li>
+            <li>interactive design</li>
           </ul>
         </li>
       </ul>

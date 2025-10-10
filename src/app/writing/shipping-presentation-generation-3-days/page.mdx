@@ -2,22 +2,78 @@ import MdxLayout from "@/app/layouts/MdxLayout";
 
 # Learning PyTorch as a Beginner: What Helped Me Most
 
-This year, I decided to start learning machine learning seriously. I was confused at first—there are so many libraries: PyTorch, TensorFlow, Keras. I picked PyTorch because the code felt more “Pythonic” and easier to understand.
+This year, I decided to start learning machine learning seriously.  
+At first, I felt completely lost — there were so many frameworks out there: **TensorFlow**, **Keras**, **PyTorch**, and even new ones like **JAX**.  
+I didn’t know where to start or which one was better.  
 
-Here’s what helped me the most in the beginning 👇
+After trying a few tutorials, I realized that **PyTorch** felt the most natural.  
+The syntax was close to normal Python, and I could understand what each line of code was doing.  
+Instead of writing long boilerplate code, PyTorch let me experiment, print out shapes, and debug easily.  
+It made the learning process feel smoother and more “human.”
 
-🧰 My Learning Stack
+---
 
-Wait for me to share... coming soon!
+🧰 **My Learning Stack**
+
+Here are the main tools and resources that helped me in the beginning:
+
+- **YouTube Tutorials**  
+  Watching short beginner videos helped me a lot. I followed creators who explained concepts like *tensors*, *gradients*, and *backpropagation* in simple terms.  
+  One thing I learned: don’t just watch — pause and type the code yourself. Seeing the output really helps things stick.
+
+- **PyTorch Official Docs**  
+  I didn’t expect this, but the PyTorch documentation is actually beginner-friendly.  
+  The examples are short and easy to test out. The “60-Minute Blitz” guide on their website is one of the best crash courses I’ve ever read.
+
+- **Google Colab**  
+  I used Colab for almost everything. It’s simple, runs on the cloud, and has GPU support.  
+  I didn’t need to install anything, and I could try out small experiments anytime — even on my phone!
+
+- **Kaggle Notebooks**  
+  Reading other people’s notebooks helped me learn *how* to structure a machine learning workflow.  
+  It’s one thing to train a model, but another to write clean, readable code that others can understand.
+
+---
+
+🧠 **What I Learned**
+
+When starting out, it’s really tempting to jump straight into image recognition or fancy deep learning models.  
+But what helped me the most was slowing down and focusing on the basics:
+
+- Start with **linear regression** — it’s simple but teaches the fundamentals of training, loss functions, and gradients.  
+- Learn what a **tensor** really is — not just a fancy word, but the backbone of every PyTorch operation.  
+- Understand **autograd** — this feature automatically computes gradients, and once you “get it,” everything else makes more sense.  
+- Don’t worry if your model doesn’t work at first — debugging and reading error messages is part of the process.
+
+---
+
+💬 **Small Wins That Kept Me Going**
+
+The first time I saw my model’s loss go down, I actually smiled.  
+It wasn’t perfect, but it showed that the code I wrote was *learning something*.  
+I started building small projects like predicting house prices and classifying handwritten digits.  
+Each one gave me more confidence to explore deeper topics.
+
+---
+
+🚀 **What’s Next**
+
+Now that I’m comfortable with the basics, I plan to learn:  
+- **Convolutional Neural Networks (CNNs)** for image data  
+- **Transformers and NLP** (maybe try a text sentiment model next)  
+- **Deploying a PyTorch model** using Streamlit or Flask  
+
+I know it’ll take time, but PyTorch made machine learning feel more approachable — like building one small block at a time.
+
+---
 
 export const meta = {
   title: "Learning PyTorch as a Beginner: What Helped Me Most",
-  date: "03-01-2025",
+  date: "08-10-2025",
   tags: ["machine learning", "pytorch", "learning journey"],
   description: "My personal experience picking up PyTorch, what resources helped me most, and key takeaways as a CS student diving into ML.",
 }
 
 export default function MDXPage({ children }) {
   return <MdxLayout>{children}</MdxLayout>
-
 }
