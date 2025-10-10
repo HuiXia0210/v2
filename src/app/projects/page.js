@@ -30,7 +30,7 @@ export default function Home() {
       image: Lana2Image,
       imageAlt: "Lana Del Rey",
       technologies: ["Tableau, Python (pandas, seaborn, TextBlob)"],
-      github: "https://github.com/HuiXia0210/music_analysis.git",
+      github: "https://public.tableau.com/app/profile/hui.ooi/viz/FIT3179DATAVISUALIZATION1/Dashboard1?publish=yes",
     },
     {
       title: "British Airways",
@@ -39,7 +39,7 @@ export default function Home() {
       image: BritishAirwaysImage,
       imageAlt: "British Airways Review",
       technologies: ["Tableau", "Data Visualization"],
-      github: "https://github.com/HuiXia0210/British-Airways-Review.git",
+      github: "https://public.tableau.com/app/profile/hui.ooi/viz/BritishAirwaysReviews_17600637515150/Dashboard1?publish=yes",
     },
     {
       title: "Bed Bath & Beyond",
