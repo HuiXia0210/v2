@@ -9,9 +9,11 @@ import TicTacToeImage from "../assets/projects/tictactoe.png";
 import NutriTrackImage from "../assets/projects/nutritrack.png";
 import OceanImage from "../assets/projects/ocean.png";
 import RunMonashImage from "../assets/projects/runmonash.png";
+import RunImage from "../assets/projects/run2.jpg";
 import LangImage from "../assets/projects/lang.png";
 import BritishAirwaysImage from "../assets/projects/britishairways.png";
 import LanaImage from "../assets/projects/lana_image.png"
+import Lana2Image from "../assets/projects/lana4.webp"
 import BedImage from "../assets/projects/bbb.png"
 import ArabImage from "../assets/projects/arab.webp"
 
@@ -25,7 +27,7 @@ export default function Home() {
       title: "Lana Del Rey Dashboard",
       description:
         "An interactive music analytics dashboard exploring Lana Del Rey’s discography. It visualizes trends in audio features, popularity, and lyrical sentiment across albums using Python and Tableau. The project highlights data wrangling, sentiment analysis, and storytelling through visuals that reveal how her music style evolved over time.",
-      image: LanaImage,
+      image: Lana2Image,
       imageAlt: "Lana Del Rey",
       technologies: ["Tableau, Python (pandas, seaborn, TextBlob)"],
       github: "https://github.com/HuiXia0210/music_analysis.git",
@@ -45,7 +47,7 @@ export default function Home() {
         "An interactive R Shiny dashboard analyzing sales, inventory, and customer data to uncover factors behind the retailer’s performance decline. It highlights data wrangling, KPI visualization, and business insight generation for strategic decision-making.",
       image: BedImage,
       imageAlt: "Bed",
-      technologies: ["R Shiny, R"],
+      technologies: ["R Shiny", "R"],
       github: "https://github.com/HuiXia0210/bedbath_andbeyond.git",
     },
     {
@@ -54,15 +56,15 @@ export default function Home() {
         "A text analytics project that extracts and analyzes Google Maps reviews from Los Angeles–based Arab restaurants to uncover customer sentiment and service insights. It combines data scraping (Apify), NLP, and visualization in Google Colab to identify trends in food quality, price, and delivery experience.",
       image: ArabImage,
       imageAlt: "Arab",
-      technologies: ["Google Colab, Apify, Python"],
+      technologies: ["Google Colab", "Apify", "Python"],
       github: "https://github.com/HuiXia0210/restaurant_review_analysis.git",
     },
     {
       title: "Run Monash",
       description:
         "A database project for a running carnival platform that uses SQL and MongoDB to manage event entries, teams, competitors, and fundraising analytics. ",
-      image: RunMonashImage,
-      imageAlt: "Run Monash",
+      image: RunImage,
+      imageAlt: "Run 2 Monash",
       technologies: ["MongoDB", "Oracle SQL Developer"],
       github: "https://github.com/HuiXia0210/RunMonash.git",
     },
@@ -74,6 +76,17 @@ export default function Home() {
       imageAlt: "Ocean Odyssey",
       technologies: ["Oracle SQL", "Oracle Data Modeler", "Lucidchart"],
       github: "https://github.com/HuiXia0210/OceanOdyssey.git",
+    },
+    {
+      title: "Tic-Tac-Toe AI Solver",
+      href: "https://huixia0210.github.io/tictactoeee/",
+      description:
+        "A web app that uses the minimax algorithm and alpha-beta pruning to let you play against an unbeatable AI.Showcases game logic, search algorithms, and decision-making optimization.",
+      image: TicTacToeImage,
+      imageAlt: "Tic-Tac-Toe AI Solver",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      github: "https://github.com/HuiXia0210/tictactoeee.git",
+      demo: "https://huixia0210.github.io/tictactoeee/",
     },
     {
       title: "NutriTrack",
@@ -106,17 +119,6 @@ export default function Home() {
       technologies: ["Python"],
       github: "https://github.com/HuiXia0210/lang.git",
     },*/
-    {
-      title: "Tic-Tac-Toe AI Solver",
-      href: "https://huixia0210.github.io/tictactoeee/",
-      description:
-        "A web app that uses the minimax algorithm and alpha-beta pruning to let you play against an unbeatable AI.Showcases game logic, search algorithms, and decision-making optimization.",
-      image: TicTacToeImage,
-      imageAlt: "Tic-Tac-Toe AI Solver",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      github: "https://github.com/HuiXia0210/tictactoeee.git",
-      demo: "https://huixia0210.github.io/tictactoeee/",
-    },
     
   ];
 
